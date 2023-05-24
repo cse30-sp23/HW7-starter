@@ -24,8 +24,8 @@ nGetIndexO3.o : nGetIndex.c nGetIndex.h
 
 
 
-doRow.o : doRow.s
-	gcc -c $(CFLAGS) doRow.s
+doRow.o : doRow.S
+	gcc -c $(CFLAGS) doRow.S
 
 clean :
 	rm -f $(OBJS)
