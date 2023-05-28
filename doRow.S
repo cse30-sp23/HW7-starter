@@ -3,7 +3,8 @@
         .equ 	NUL, 0
 
         .global asm_doRow
-	
+	.syntax unified	
+
 	// Set offsets for incoming parameters 5 and 6
 	.equ	IARG6, //TODO	// new life parameter
 	.equ    IARG5, //TODO	// number columns parameter	
